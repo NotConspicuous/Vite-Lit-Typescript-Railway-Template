@@ -12,6 +12,7 @@
     "types"
   ],
   "scripts": {
+    "start": "npx http-server ./dist",
     "dev": "vite",
     "build": "tsc && vite build"
   },
